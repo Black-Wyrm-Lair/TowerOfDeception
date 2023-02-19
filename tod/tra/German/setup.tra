@@ -43,70 +43,56 @@ Jetzt habe ich eine "KLINGE" und nach dem Tod des Dieners wurde ich anscheinend 
 @202  = ~Ein verzierter, ledergebundener Band, der von Staub bedeckt ist. Er strahlt eine Art magischer Energie aus.~
 @203  = ~Ustrains Zauberbuch ist ein berühmter Band, der von dem Magier Ustrain geschrieben wurde. Es wird gemunkelt, dass es die dunkelsten Gehimnisse der Nekromantie beinhaltet, mit denen man Höllendämonen und andere hochstufige Wesen hervorraufen kann. Leider ist dieses Buch magisch versiegelt und da niemand in Eurer Gruppe ist, der in der Lage wäre, die Siegel zu brechen, ist es für Euch nutzlos.~
 
-@300  = ~Kriegsklinge des Zwielichts~
+@300  = ~Kriegsklinge des Zwielichts +5~
 @301  = ~Legenden erzählen von dieser Klinge, die vor langer Zeit erschaffen wurde. Es war die Zeit der Klagen, als solche Waffen dringend benötigt wurden. Geschmiedet wurde es von Handwerkern aus dem Norden, die ihre Liebe für alles Gute mit ihrem Hass gegen das Böse kombinierten. Dieses Schwert ist aus magischem Stahl hergestellt worden und glänzt wie poliertes Silber. Die Klinge ist völlig reflektierend und glüht mit einem blauen Licht, das entlang des Schwerts kriecht und knistert.
-Die Kriegsklinge ist intelligent und ihre primäre Motivation ist, das Böse zu vernichten. Im Kampf erkennt sie die Gesinnung des Gegners und wenn sie der Meinung ist, der Gegner ist böse, verursacht sie extra Schaden gegen ihn. Es steigert auch die Fähigkeit des Trägers, auf Zauberei zurückzugreifen und erhöht dessen Zaubergeschwindigkeit. Manchmal testet es die Intelligenz und Einstellung ihres Trägers. wenn der test misslingt, gerät der Träger manchmal in einen Berserkerrausch.
+Die Kriegsklinge ist intelligent und ihre primäre Motivation ist, das Böse zu vernichten. Im Kampf erkennt sie die Gesinnung des Gegners und wenn sie der Meinung ist, der Gegner ist böse, verursacht sie extra Schaden gegen ihn. Es steigert auch die Fähigkeit des Trägers, auf Zauberei zurückzugreifen und erhöht dessen Zaubergeschwindigkeit. Manchmal testet es die Intelligenz und Einstellung des Trägers. Wenn der Test misslingt, verfällt der Träger in einen Berserkerrausch.
 
-EIGENSCHAFTEN
+EIGENSCHAFTEN:
 
-Kampf:
- +5 Schaden bei chaotisch-bösen Gegnern zusätzlich zu anderen Boni.
- 5%ige Chance, dass alle Treffer den Träger für 10 Runden in einen Berserkerrausch verfallen lassen.
+Heilige Macht entlehnen (2x täglich)
 
-Speziell:
- Kann "Hervorrufung heiliger Macht" zweimal am Tag
- -1 auf Geschicklichkeit
-   30% Magieresistenz
+Bei 5 % der Treffer verfällt der Träger für 15 Runden in einen Berserkerrausch.
+Auf dem Träger liegt Verbesserte Beschleunigung.
 
-ETW0: +5 Bonus
-Schaden:  1W12 +5 (Hiebwaffe)
-Gewicht: 30
+Geschicklichkeit: -1
+Magiewiderstand: 30 %
+
+ETW0-Bonus: -5
+Schaden:
+ 1W12 +5 (Klinge)
+ 1W12 +10 gg. chaotisch böse Wesen
 Initiativefaktor: 5
 Fertigkeit: Zweihänder
 Typ: 2-händig
 Mindeststärke: 15
 Mindestintelligenz: 16
 
-Nicht verwendbar von:
- Bösen Charakteren
- Druiden
- Klerikern
- Magiern
- Dieben
- Mönchen
- Barden~
-@301  = ~Legenden erzählen von dieser Klinge, die vor langer Zeit erschaffen wurde. Es war die Zeit der Klagen, als solche Waffen dringend benötigt wurden. Geschmiedet wurde es von Handwerkern aus dem Norden, die ihre Liebe für alles Gute mit ihrem Hass gegen das Böse kombinierten. Dieses Schwert ist aus magischem Stahl hergestellt worden und glänzt wie poliertes Silber. Die Klinge ist völlig reflektierend und glüht mit einem blauen Licht, das entlang des Schwerts kriecht und knistert.
-Die Kriegsklinge ist intelligent und ihre primäre Motivation ist, das Böse zu vernichten. Im Kampf erkennt sie die Gesinnung des Gegners und wenn sie der Meinung ist, der Gegner ist böse, verursacht sie extra Schaden gegen ihn. Es steigert auch die Fähigkeit des Trägers, auf Zauberei zurückzugreifen und erhöht dessen Zaubergeschwindigkeit. Manchmal testet es die Intelligenz und Einstellung ihres Trägers. wenn der test misslingt, gerät der Träger manchmal in einen Berserkerrausch.
+Gewicht: 30~
+@302  = ~Legenden erzählen von dieser Klinge, die vor langer Zeit erschaffen wurde. Es war die Zeit der Klagen, als solche Waffen dringend benötigt wurden. Geschmiedet wurde es von Handwerkern aus dem Norden, die ihre Liebe für alles Gute mit ihrem Hass gegen das Böse kombinierten. Dieses Schwert ist aus magischem Stahl hergestellt worden und glänzt wie poliertes Silber. Die Klinge ist völlig reflektierend und glüht mit einem blauen Licht, das entlang des Schwerts kriecht und knistert.
+Die Kriegsklinge ist intelligent und ihre primäre Motivation ist, das Böse zu vernichten. Im Kampf erkennt sie die Gesinnung des Gegners und wenn sie der Meinung ist, der Gegner ist böse, verursacht sie extra Schaden gegen ihn. Es steigert auch die Fähigkeit des Trägers, auf Zauberei zurückzugreifen und erhöht dessen Zaubergeschwindigkeit. Manchmal testet es die Intelligenz und Einstellung des Trägers. Wenn der Test misslingt, verfällt der Träger in einen Berserkerrausch.
 
-EIGENSCHAFTEN
+EIGENSCHAFTEN:
 
-Kampf:
- +5 Schaden bei chaotisch-bösen Gegnern zusätzlich zu anderen Boni.
- 5%ige Chance, dass alle Treffer den Träger für 10 Runden in einen Berserkerrausch verfallen lassen.
+Heilige Macht entlehnen (2x täglich)
 
-Speziell:
- Kann "Hervorrufung heiliger Macht" zweimal am Tag
- 2 Sprüche pro Runde können angewandt werden
- -1 auf Geschicklichkeit
-   30% Magieresistenz
+Bei 5 % der Treffer verfällt der Träger für 15 Runden in einen Berserkerrausch.
+Auf dem Träger liegt Verbesserte Beschleunigung.
 
-ETW0: +5 Bonus
-Schaden:  1W12 +5 (Hiebwaffe)
-Gewicht: 30
+Geschicklichkeit: -1
+Magiewiderstand: 30 %
+
+ETW0-Bonus: -5
+Schaden:
+ 1W12 +5 (Klinge)
+ 1W12 +10 gg. chaotisch böse Wesen
 Initiativefaktor: 5
 Fertigkeit: Zweihänder
 Typ: 2-händig
 Mindeststärke: 15
 Mindestintelligenz: 16
 
-Nicht verwendbar von:
- Bösen Charakteren
- Druiden
- Klerikern
- Magiern
- Dieben
- Mönchen
- Barden~
+Gewicht: 30~
+
 @400  = ~Astralsplitter~
 @401  = ~Baloar~
 
@@ -124,8 +110,8 @@ Nicht verwendbar von:
 @414  = ~Wistemach~
 @415  = ~Seezombie~
 @416  = ~Ustrain~
-@417  = ~What the ...~
-@418  = ~Prepare yourself!~
-@419  = ~Right, master.~
-@420  = ~Yes, master.~
-@421  = ~As you command, master.~
+@417  = ~Was zum ...~
+@418  = ~Bereitet Euch vor!~
+@419  = ~In Ordnung, Meister.~
+@420  = ~Ja, Meister.~
+@421  = ~Wie Ihr befiehlt, Meister.~
