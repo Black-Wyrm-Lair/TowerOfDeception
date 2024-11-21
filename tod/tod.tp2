@@ -53,9 +53,46 @@ BEGIN @100
   COPY ~%MOD_FOLDER%/Bmp~		~override~
   COPY ~%MOD_FOLDER%/Mos~		~override~
   COPY ~%MOD_FOLDER%/Spl~ 		~override~
+  ACTION_IF GAME_IS ~bgt tob~ THEN BEGIN
   COPY ~%MOD_FOLDER%/Tis~		~override~
+  END
   COPY ~%MOD_FOLDER%/Wav~ 		~override~
   COPY ~%MOD_FOLDER%/Wed~ 		~override~
+  
+  ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+
+	// Install pvrz-based tilesets without the danger of overwriting pvrz files from other mods or the game itself.
+
+		INCLUDE ~%MOD_FOLDER%/lib/a7_pvrz_tis.tpa~
+		
+		// Installing all TIS files from the specified folder
+
+	ACTION_BASH_FOR ~%MOD_FOLDER%/PVRZ~ ~^.+\.tis$~ BEGIN
+		COPY ~%BASH_FOR_FILESPEC%~ ~override~
+		LPF UPDATE_PVRZ_INDICES RET original_base_index new_base_index END
+
+		// Installing associated PVRZ files for each tileset individually
+
+    ACTION_IF (new_base_index >= 0) BEGIN
+      LAF TIS_RES_TO_PVRZ STR_VAR tis_res = EVAL ~%BASH_FOR_FILESPEC%~ RET prefix END
+
+      ACTION_BASH_FOR ~%MOD_FOLDER%/PVRZ~ ~^%prefix%.+\.pvrz$~ BEGIN
+        LAF INSTALL_PVRZ
+          INT_VAR original_base_index new_base_index
+          STR_VAR source_file = EVAL ~%BASH_FOR_FILESPEC%~
+          RET success DEST_FILESPEC
+        END
+
+        ACTION_IF (NOT success) BEGIN
+          FAIL ~Could not install "%BASH_FOR_FILESPEC%"!~
+        END
+      END
+    END ELSE BEGIN
+      FAIL ~Could not install "%BASH_FOR_FILESPEC%"!~
+    END
+  END
+
+END
 
   ////////////////////
   // Compiling Bafs //
