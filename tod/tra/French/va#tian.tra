@@ -18,7 +18,7 @@
 @15   = ~Je vous ai dit tout ce dont vous aurez besoin pour accomplir votre mission. Une fois à l'intérieur de la tour, vous découvrirez le reste.~
 @16   = ~Bien. Mon maître sera content.~
 @17   = ~Un capitaine en qui j'ai toute confiance vous attend sur son navire dans une baie isolée assez proche d'ici. Je vais vous y amener. Rappelez-vous, à partir de ce point vous ne pourrez compter que sur vous-même. Quand vous aurez terminé, revenez me voir. En route maintenant : la Tour vous attend...~
-@18   = ~Que vous partiez maintenant ou plus tard, mon offre tient toujours. Je préfèrerais cependant que vous accomplissiez cette mission assez rapidement.~
+@18   = ~Que vous partiez maintenant ou plus tard, mon offre tient toujours. Je préférerais cependant que vous accomplissiez cette mission assez rapidement.~
 @19   = ~Comme vous voulez. Au revoir.~
 @20   = ~Ah, vous revoilà. Avez-vous changé d'avis ?~
 @21   = ~Effectivement, j'ai changé d'avis. Reparlez-moi un peu de votre offre.~
@@ -40,7 +40,7 @@
         ~Certainement. La voilà, comme promis. Je vous remercie sincèrement. Vous avez fait preuve de talent et vous vous êtes également montrée digne de confiance. Adieu, <CHARNAME>.~
 @35   = ~Merci. Adieu.~
 @36   = ~Ne jouez pas au plus fin avec moi, <CHARNAME>. Je ne suis pas de bonne humeur. Donnez-le moi tout de suite. Nous avions un accord !~
-@37   = ~Non. Comme je viens de vous le dire, je préfèrerais le garder.~
+@37   = ~Non. Comme je viens de vous le dire, je préférerais le garder.~
 @38   = ~Vous ne me laissez guère le choix. Je m'en emparerai par la force, si nécessaire. Préparez-vous à mourir !~
 @39   = ~Idiots ! Vous êtes revenus sans le livre ? Comment est-ce possible ? Vous auriez mieux fait de rester là-bas, pauvres crétins ! Je ne veux plus avoir à faire à vous !~
 
