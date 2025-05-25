@@ -3,7 +3,7 @@
 //AUTHOR ~Valiant (kiski@centrum.sk)~
 SUPPORT ~http://forums.blackwyrmlair.net/index.php?showforum=117, http://gibberlings3.net/forums, http://www.shsforums.net, https://forums.beamdog.com~
 
-VERSION ~v4.0.9~
+VERSION ~v4.1.0~
 
 README ~%MOD_FOLDER%/tod-readme.htm~
 
@@ -26,7 +26,7 @@ LANGUAGE ~Francais (traduit par Le Marquis)~                              ~Frenc
 LANGUAGE ~Polish (translated by Grzebul and Cuttooth)~                    ~Polish~   ~tod/tra/Polish/setup.tra~
 LANGUAGE ~Chinese~                                                        ~Schinese~ ~tod/tra/Schinese/setup.tra~
 
-BEGIN @100
+BEGIN @100 DESIGNATED 0 LABEL TowerOfDeception-Main
   REQUIRE_PREDICATE GAME_IS ~BGT TOB BG2EE EET~ @101 // ToB required
 
   /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -231,7 +231,7 @@ END
   // Improved Astral Shard Guardian //
   ////////////////////////////////////
 
-BEGIN @106
+BEGIN @106 DESIGNATED 1 LABEL TowerOfDeception-ImprovedAstralShardGuardian
   REQUIRE_FILE ~override/va#tod.nul~ @107 // ToD required
 
   COMPILE ~%MOD_FOLDER%/ImpASG/va#maril.baf~   ~override/va#maril.bcs~
@@ -240,7 +240,7 @@ BEGIN @106
   // Encounter with Ustrain //
   ////////////////////////////
 
-BEGIN @108
+BEGIN @108 DESIGNATED 2 LABEL TowerOfDeception-UstrainEncounter 
   REQUIRE_FILE ~override/va#tod.nul~ @107 // ToD required
 
   EXTEND_TOP ~baldur.BCS~ ~tod\Ustrain2\baldur.BAF~
@@ -263,5 +263,12 @@ BEGIN @108
   COPY ~%MOD_FOLDER%/Ustrain2/va#staf2.spl~    ~override/va#staf2.spl~
 
   COMPILE ~%MOD_FOLDER%/Ustrain2/VA#ustrn.d~
+
+BEGIN @109 DESIGNATED 3 LABEL TowerOfDeception-WarbladeTwilightFix
+  REQUIRE_FILE ~override/va#tod.nul~ @107 // ToD required
+
+  COPY ~%MOD_FOLDER%/Itm/fixed/va#calan.itm~ ~override/va#calan.itm~
+    SAY NAME2 @300
+    SAY DESC @302
 
 //eof
