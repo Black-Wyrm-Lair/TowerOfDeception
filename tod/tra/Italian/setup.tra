@@ -38,6 +38,7 @@ Ora ho la Spada, sembra che dopo la morte del Servitore io sia stato teletraspor
 @106  = ~Migliorato il Guardiano del Frammento Astrale~
 @107  = ~Non sembra che hai la Torre dell'Inganno installato.~
 @108  = ~L'incontro con Ustrain~
+@109  = ~Correggi lo stato di accelerazione di La Lama del Crepuscolo.~
 
 @200  = ~Vecchio Libro Polveroso~
 @201  = ~Libro degli Incantesimi di Ustrain~
@@ -46,6 +47,39 @@ Ora ho la Spada, sembra che dopo la morte del Servitore io sia stato teletraspor
 
 @300  = ~La Lama del Crepuscolo~
 @301  = ~Le leggende narrano che questa lama é stata creata molto tempo fa, durante il Periodo dei Disordini, quando il bisogno di simili armi era necessario. E' stata forgiata dagli artigiani del nord mettendo insieme il loro amore per qualsiasi cosa che era buona e il loro odio per tutto ciò che era malvagio. Questa spada è stata modellata con acciaio incantato e argento luminoso ottenendo, in questo modo, un incessante bagliore sulla spada. La lama è perfettamente riflettente e splendente non preoccupandosi di che tipo di castigo venga punito, ardendo di una luce blu lungo tutta la spada.
+La lama é intelligente, il suo primo pensiero é la difesa da tutto ciò che é malvagio. In combattimento può riconoscere la natura di un avversario. Se scopre che il suo allineamento é malvagio, applica su di lui un danno extra. Inoltre incrementa l'abilità del suo possessore di chiamare a se della magia e di lanciarla velocemente. Qualche volta la lama mette alla prova la stessa mente e l'intelligenza di colui che la impugna, e se chi maneggia la spada fallisce, c'é la possibilità che entri in uno stato di berserker.
+
+STATISTICHE
+
+Abilità di Combattimento:
+   +5 al danno per gli avversari di allineamento caotico malvagio in aggiunta agli altri bonus.
+   5% di possibilità che i colpi causeranno a chi la impugna di entrare in uno stato di berserker della mente per 10 rounds.
+
+Abilità Speciali:
+   Può lanciare "Invocare la Potenza Divina" due volte al giorno
+   -1 alla Destrezza
+   30% di Resistenza alla Magia
+
+THAC0: +5 bonus
+Danno:  1D12 +5
+Tipo di danno:  tagliente
+Peso: 30
+Velocità: 5
+Tipo di competenza: Spada a due mani
+Tipo:  a due mani
+Requisiti:
+   15 alla Forza
+   16 all'Intelligenza
+
+Non utilizzabile da:
+Personaggi di allineamento Malvagio
+Druido
+Chierico
+Mago
+Ladro
+Monaco
+Bardo~
+@302  = ~Le leggende narrano che questa lama é stata creata molto tempo fa, durante il Periodo dei Disordini, quando il bisogno di simili armi era necessario. E' stata forgiata dagli artigiani del nord mettendo insieme il loro amore per qualsiasi cosa che era buona e il loro odio per tutto ciò che era malvagio. Questa spada è stata modellata con acciaio incantato e argento luminoso ottenendo, in questo modo, un incessante bagliore sulla spada. La lama è perfettamente riflettente e splendente non preoccupandosi di che tipo di castigo venga punito, ardendo di una luce blu lungo tutta la spada.
 La lama é intelligente, il suo primo pensiero é la difesa da tutto ciò che é malvagio. In combattimento può riconoscere la natura di un avversario. Se scopre che il suo allineamento é malvagio, applica su di lui un danno extra. Inoltre incrementa l'abilità del suo possessore di chiamare a se della magia e di lanciarla velocemente. Qualche volta la lama mette alla prova la stessa mente e l'intelligenza di colui che la impugna, e se chi maneggia la spada fallisce, c'é la possibilità che entri in uno stato di berserker.
 
 STATISTICHE

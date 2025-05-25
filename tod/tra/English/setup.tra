@@ -39,6 +39,7 @@ Now I have the Blade, and it seems that after Servant's death I was teleported t
 @106  = ~Improved Astral Shard Guardian~
 @107  = ~You do not appear to have Tower of Deception installed.~
 @108  = ~Encounter with Ustrain~
+@109  = ~Fix Acceleration status of Warblade of Twilight.~
 
 @200  = ~Dusty Old Book~
 @201  = ~Ustrain's Spellbook~
@@ -47,6 +48,39 @@ Now I have the Blade, and it seems that after Servant's death I was teleported t
 
 @300  = ~Warblade of Twilight~
 @301  = ~Legends say that this warblade was made a long time ago, during the Time of Troubles, when the need for such weapons was obvious. Forged by northern craftsmen and combining their love for everything good and with their hate for all evil, this sword is fashioned from enchanted steel and shines like polished silver at all times. The blade is perfectly reflective and glistening no matter what punishments ring down upon it, and it glows with a blue light which crawls and crackles along the sword.
+The warblade is intelligent, its primary motivation is the defeat of all evil. In combat, it can detect an enemy's alignment, and if it finds that the enemy is evil in nature, it does extra damage against them. It also increases the wielder's ability to draw upon magic and casting speed. Sometimes it tests its owner's mind and intelligence, and if the wielder fails, there is a chance that he will become berserked.
+
+STATISTICS
+
+Combat Abilities:
+   +5 damage to chaotic evil opponents in addition to other bonuses.
+   5% chance that all hits will cause the weilder to enter a berserked state of mind for 10 rounds.
+
+Special Abilities:
+   Can cast "Draw Upon Holy Might" twice per day
+   -1 To Dexterity
+   30% Magic Resistance
+
+THAC0: +5 bonus
+Damage:  1D12 +5
+Damage type:  slashing
+Weight: 30
+Speed Factor: 5
+Proficiency Type: Two handed sword
+Type:  2-handed
+Requires:
+   15 Strength
+   16 Intelligence
+
+Not Usable By:
+Evil Characters
+Druid
+Cleric
+Mage
+Thief
+Monk
+Bard~
+@302  = ~Legends say that this warblade was made a long time ago, during the Time of Troubles, when the need for such weapons was obvious. Forged by northern craftsmen and combining their love for everything good and with their hate for all evil, this sword is fashioned from enchanted steel and shines like polished silver at all times. The blade is perfectly reflective and glistening no matter what punishments ring down upon it, and it glows with a blue light which crawls and crackles along the sword.
 The warblade is intelligent, its primary motivation is the defeat of all evil. In combat, it can detect an enemy's alignment, and if it finds that the enemy is evil in nature, it does extra damage against them. It also increases the wielder's ability to draw upon magic and casting speed. Sometimes it tests its owner's mind and intelligence, and if the wielder fails, there is a chance that he will become berserked.
 
 STATISTICS

@@ -38,6 +38,7 @@ Získal jsem ostří, a zdá se, že po smrti Služebníka jsem byl teleportová
 @106  = ~Vylepseny Strazce Strepu hvezdy~
 @107  = ~Nevypada to, ze bys mel nainstalovany mod Vez Klamu~
 @108  = ~Setkani s Ustrainem~
+@109  = ~Oprava stavu zrychlení Válečná čepel soumraku.~
 
 @200  = ~Stará zaprášená kniha~
 @201  = ~Ustrainova kniha kouzel~
@@ -46,6 +47,41 @@ Získal jsem ostří, a zdá se, že po smrti Služebníka jsem byl teleportová
 
 @300  = ~Válečná čepel soumraku~
 @301  = ~Obouruční meč +5: Válečná čepel soumraku
+Legendy praví, že tato čepel byla zkuta před dávnými časy během Doby Nesnází, kterážto po potřebě takových zbraní přímo volala. Vykován severskými řemeslníky z očarované oceli, kteří do ní vložili všechnu svou lásku pro vše dobré a všechnu svou nenávist pro vše zlé, září stále jako vyleštěné stříbro. Bez ohledu na morální nečistotu těch, jež trestá, se čepel vždy dokonale leskne a vyzařuje namodralé světlo, které se proplétá, míhá a jiskří po celé délce čepele.
+
+Válečná čepel je inteligentní, jejím hlavním cílem je porazit všechno zlo. V boji dokáže určovat nepřítelovo přesvědčení, a pokud zjistí, že protivník je zlé povahy, způsobí mu dodatečná zranění. Také zvyšuje držitelovu schopnost ovládat magii a sesílat kouzla. Občas testuje majitelovu mysl a inteligenci, a jestliže ten selže, je zde šance, že držitel zbraně propadne zuřivosti.
+
+VLASTNOSTI:
+
+Schopnosti v boji:
+- Zranění chaoticky zlým protivníkům: +5
+- Šance, že při úspěšném zásahu bude držitel meče zachvácen zuřivostí na 10 kol: 5%
+
+Zvláštní schopnosti:
+- Posílení svatou mocí dvakrát denně
+- Odolnost vůči magii: 30%
+- Obratnosti: -1
+
+THAC0: +5
+Zranění: 1K12 +5 (sečné)
+Rychlost: 5
+Druh dovednosti: obouruční meč
+Druh: obouruční 
+Vyžaduje:
+Síla 15
+Inteligence 16
+
+Váha: 30
+
+Nemůže používat:
+Postava zlého přesvědčení
+Druid
+Kněz
+Mág
+Zloděj
+Mnich
+Bard~
+@302  = ~Obouruční meč +5: Válečná čepel soumraku
 Legendy praví, že tato čepel byla zkuta před dávnými časy během Doby Nesnází, kterážto po potřebě takových zbraní přímo volala. Vykován severskými řemeslníky z očarované oceli, kteří do ní vložili všechnu svou lásku pro vše dobré a všechnu svou nenávist pro vše zlé, září stále jako vyleštěné stříbro. Bez ohledu na morální nečistotu těch, jež trestá, se čepel vždy dokonale leskne a vyzařuje namodralé světlo, které se proplétá, míhá a jiskří po celé délce čepele.
 
 Válečná čepel je inteligentní, jejím hlavním cílem je porazit všechno zlo. V boji dokáže určovat nepřítelovo přesvědčení, a pokud zjistí, že protivník je zlé povahy, způsobí mu dodatečná zranění. Také zvyšuje držitelovu schopnost ovládat magii a sesílat kouzla. Občas testuje majitelovu mysl a inteligenci, a jestliže ten selže, je zde šance, že držitel zbraně propadne zuřivosti.

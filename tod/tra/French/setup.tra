@@ -36,6 +36,7 @@ J'ai maintenant la Lame, et après la mort du serviteur il semble bien que j'aie
 @106  = ~Gardien ameliore de l'Eclat Astral~
 @107  = ~Le mod Tower of Deception ne semble pas être installe.~
 @108  = ~Rencontre avec Ustrain~
+@109  = ~Réparation de l'état d'accélération de la Lame guerrière du crépuscule.~
 
 @200  = ~Vieux livre poussiéreux~
 @201  = ~Livre de sorts d'Ustrain~
@@ -44,6 +45,38 @@ J'ai maintenant la Lame, et après la mort du serviteur il semble bien que j'aie
 
 @300  = ~Lame guerrière du crépuscule~
 @301  = ~Les légendes racontent que cette épée fut forgée il y a très longtemps durant le Temps des Troubles, lorsque l'utilité de telles armes était manifeste. Façonnée par des artisans nordiques et associant leur amour du bien et leur haine du mal, cette épée est forgée à partir d'acier enchanté et brille constamment comme de l'argent poli. La lame scintille et reflète comme un miroir quels que soient les mauvais traitements qu'elle puisse subir, et émet une lueur bleutée qui crépite et se déplace sur toute sa longueur.
+L'épée est intelligente et sa principale motivation est de vaincre le mal. Elle est capable, au cours d'un combat, de détecter l'alignement d'un adversaire et inflige des dégâts supplémentaires si celui-ci est d'alignement mauvais. Elle améliore également la capacité de son porteur à manipuler la magie ainsi que la vitesse à laquelle il peut incanter. Il lui arrive parfois de mettre à l'épreuve l'esprit et l'intelligence de son porteur, et il y a une probabilité qu'il devienne enragé (berserk) si celui-ci échoue.
+
+PARAMETRES
+
+Capacités de combat :
+   +5 points de dégâts contre les adversaires chaotiques mauvais (s'ajoute aux autres bonus).
+   5% de chance à chaque coup réussi que son porteur entre dans une rage berserk pour une durée de 10 rounds.
+
+Capacités spéciales :
+   Permet de lancer "Puiser dans la puissance divine" deux fois par jour
+   -1 à la Dextérité
+   30% de résistance à la magie
+
+TAC0 : +5
+Dégâts : 1D12 +5
+Type de dégâts : tranchant
+Poids : 30
+Facteur de vitesse : 5
+Type de compétence : épée à deux mains
+Type :  arme à deux mains
+Force requise : 15
+Intelligence requise : 16
+
+Non utilisable par :
+ Personnages d'alignement mauvais
+ Druide
+ Clerc
+ Mage
+ Voleur
+ Moine
+ Barde~
+@302  = ~Les légendes racontent que cette épée fut forgée il y a très longtemps durant le Temps des Troubles, lorsque l'utilité de telles armes était manifeste. Façonnée par des artisans nordiques et associant leur amour du bien et leur haine du mal, cette épée est forgée à partir d'acier enchanté et brille constamment comme de l'argent poli. La lame scintille et reflète comme un miroir quels que soient les mauvais traitements qu'elle puisse subir, et émet une lueur bleutée qui crépite et se déplace sur toute sa longueur.
 L'épée est intelligente et sa principale motivation est de vaincre le mal. Elle est capable, au cours d'un combat, de détecter l'alignement d'un adversaire et inflige des dégâts supplémentaires si celui-ci est d'alignement mauvais. Elle améliore également la capacité de son porteur à manipuler la magie ainsi que la vitesse à laquelle il peut incanter. Il lui arrive parfois de mettre à l'épreuve l'esprit et l'intelligence de son porteur, et il y a une probabilité qu'il devienne enragé (berserk) si celui-ci échoue.
 
 PARAMETRES

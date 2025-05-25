@@ -40,6 +40,8 @@ Wygląda na to, że teraz, kiedy już mam "OSTRZE", a Sługa jest już martwy, z
 @106  = ~Ulepszony Strażnik Astralnego Kryształu~
 @107  = ~Nie masz zainstalowanego głownego komponentu moda Wieża Oszustw.~
 @108  = ~Spotkanie z Ustrainem~
+@109  = ~Popraw status Akceleracji Ostrza Zmierzchu.~
+
 @200  = ~Stara Zakurzona Książka~
 @201  = ~Księga Czarów Ustraina~
 @202  = ~Ozdobny, obłożony skórą wolumin, pokryty grubą warstwą kurzu.. Łatwo wyczuwasz wytwarzaną przez księgę magiczną energię.~
@@ -47,6 +49,35 @@ Wygląda na to, że teraz, kiedy już mam "OSTRZE", a Sługa jest już martwy, z
 
 @300  = ~Ostrze Zmierzchu~
 @301  = ~Legendy mówią, że to ostrze zostało stworzone dawno temu, w czasie Czasu Niepokoju, kiedy to tego typu broń było wybitnie pożądana. Wykuta przez rzemieślnika z północy, łączy w sobie zarówno miłość do wszystkiego co dobre, jak i nienawiść do wszystkiego co złe. Stworzony z zaczarowanej stali miecz lśni jakby był cały z najpiękniejszego srebra. Ten wspaniały oręż jest w pełni odblaskowy, ponadto roztacza łunę niebieskawego światła, które bije wzdłuż całego ostrza po koniuszek klingi.
+Ostrze to jest inteligentne, jego pierwszorzędnym celem jest pokonywanie wszelkiego zła. W walce potrafi wykryć charakter przeciwnika, oraz zadawać zwiększone obrażenia postaciom z natury złym. Ponadto daje dzierżycielowi zdolność wezwania boskiej mocy i zwiększa szybkość rzucania czarów. Czasami wystawia na próbę umysł i inteligencję właściciela, i gdy ten zawiedzie, istnieje szansa na wpadnięcie w szał berserkerski.
+
+PARAMETRY:
+
+Obrażenia: 1K12 +5
+TraK0: +5
+Typ obrażeń: sieczne
+Specjalne:
+ +5 pkt. obrażeń dla przeciwników o charakterze chaotycznym złym
+ 5% szans na wpadnięcie posiadacza miecza w trwający 10 rund szał berserkerski
+ Pozwala rzucać Wezwanie boskiej mocy dwa razy dziennie
+ -1 do zręczności
+ 30% odporności na magię
+Waga: 30
+Opóźnienie: 5
+Rodzaj biegłości: miecz oburęczny
+Typ: 2-ręczna
+Wymagania:
+ 15 siły
+ 16 inteligencji
+Nie może używać:
+ Postać o złym charakterze
+ Druid
+ Kapłan
+ Mag
+ Złodziej
+ Mnich
+ Bard~
+@302  = ~Legendy mówią, że to ostrze zostało stworzone dawno temu, w czasie Czasu Niepokoju, kiedy to tego typu broń było wybitnie pożądana. Wykuta przez rzemieślnika z północy, łączy w sobie zarówno miłość do wszystkiego co dobre, jak i nienawiść do wszystkiego co złe. Stworzony z zaczarowanej stali miecz lśni jakby był cały z najpiękniejszego srebra. Ten wspaniały oręż jest w pełni odblaskowy, ponadto roztacza łunę niebieskawego światła, które bije wzdłuż całego ostrza po koniuszek klingi.
 Ostrze to jest inteligentne, jego pierwszorzędnym celem jest pokonywanie wszelkiego zła. W walce potrafi wykryć charakter przeciwnika, oraz zadawać zwiększone obrażenia postaciom z natury złym. Ponadto daje dzierżycielowi zdolność wezwania boskiej mocy i zwiększa szybkość rzucania czarów. Czasami wystawia na próbę umysł i inteligencję właściciela, i gdy ten zawiedzie, istnieje szansa na wpadnięcie w szał berserkerski.
 
 PARAMETRY:
@@ -76,6 +107,7 @@ Nie może używać:
  Złodziej
  Mnich
  Bard~
+
 @400  = ~Astralny Kryształ~
 @401  = ~Balor~
 

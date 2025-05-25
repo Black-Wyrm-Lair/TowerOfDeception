@@ -38,6 +38,7 @@ Ahora tengo la Espada, y parece que la muerte del sirviente me teleportó autom�
 @106 = ~Guardián del Fragmento Astral Mejorado~
 @107 = ~Al parecer no tienes instalado el mod Torre del Engaño.~
 @108 = ~Encuentro con Ustrain~
+@109 = ~Arreglar estado de aceleración de Filo guerrero del Crepúsculo.~
 
 @200 = ~Libro polvoriento~
 @201 = ~Libro de conjuros de Ustrain~
@@ -46,6 +47,34 @@ Ahora tengo la Espada, y parece que la muerte del sirviente me teleportó autom�
 
 @300 = ~Filo guerrero del Crepúsculo~
 @301 = ~Las leyendas cuentan que este filo fue hecho hace mucho tiempo, durante la Era de los Trastornos, cuando era obvia la necesidad de estas armas. Forjada por herreros del norte combinando su amor por todo lo bueno y el odio por todo lo malvado, esta espada está hecha de acero encantado y brilla cual plata pulida todo el tiempo. La espada brilla y refleja sin importar los castigos que pueda sufrir, y reluce con un brillo azul que recorre todo el filo.
+Se trata de un filo guerrero inteligente, su principal motivación es destruir la maldad. Durante el combate puede detectar el alineamiento del enemigo, y si detecta que es de naturaleza malvada, causa un daño extra. También aumenta la habilidad del portador de invocar y la velocidad de lanzamiento de hechizos. A veces incluso pone a prueba la inteligencia del portador y si falla existe la posibilidad de que entre en modo Furia.
+ESTADÍSTICAS
+Habilidades de Combate:
+   +5 de daño a enemigos caótico malvados.
+   5% de posibilidades de que todos los golpes hagan que el portador entre en modo furia durante 10 rondas.
+Habilidades especiales:
+   Puede lanzar Invocar al poder sagrado dos veces al día
+   -1 a la Destreza
+   30% resistencia a la magia
+THAC0: +5
+Daño: 1D12 +5
+Tipo de daño: Cortante
+Peso: 30
+Factor de velocidad: 5
+Talento marcial: Espada a dos manos
+Tipo: A dos manos
+Requiere:
+   Fuerza 15
+   Inteligencia 16
+No lo puede usar:
+Personajes malignos
+Druida
+Clérigo
+Mago
+Ladrón
+Monje
+Bardo~
+@302 = ~Las leyendas cuentan que este filo fue hecho hace mucho tiempo, durante la Era de los Trastornos, cuando era obvia la necesidad de estas armas. Forjada por herreros del norte combinando su amor por todo lo bueno y el odio por todo lo malvado, esta espada está hecha de acero encantado y brilla cual plata pulida todo el tiempo. La espada brilla y refleja sin importar los castigos que pueda sufrir, y reluce con un brillo azul que recorre todo el filo.
 Se trata de un filo guerrero inteligente, su principal motivación es destruir la maldad. Durante el combate puede detectar el alineamiento del enemigo, y si detecta que es de naturaleza malvada, causa un daño extra. También aumenta la habilidad del portador de invocar y la velocidad de lanzamiento de hechizos. A veces incluso pone a prueba la inteligencia del portador y si falla existe la posibilidad de que entre en modo Furia.
 ESTADÍSTICAS
 Habilidades de Combate:
