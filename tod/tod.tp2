@@ -234,7 +234,7 @@ END
 BEGIN @106 DESIGNATED 1 LABEL TowerOfDeception-ImprovedAstralShardGuardian
   REQUIRE_FILE ~override/va#tod.nul~ @107 // ToD required
 
-  COMPILE ~%MOD_FOLDER%/ImpASG/va#maril.baf~   ~override/va#maril.bcs~
+  COMPILE ~%MOD_FOLDER%/ImpASG/va#maril.baf~
 
   ////////////////////////////
   // Encounter with Ustrain //
